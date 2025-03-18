@@ -1,15 +1,35 @@
-Database contains a sample of 82498 subtitle files from opensubtitles.org. 
+🎬 Building an AI-Powered Subtitle Search Engine (Shazam for Subtitles)! 🚀🔍
 
-Most of the subtitles are of movies and tv-series which were released after 1990 and before 2024.
+Excited to share my latest AI-powered project from the Data Science With GenAI Internship at Innomatics Research Labs – an Advanced Search Engine for Video Subtitles that enhances accessibility and search relevance!
 
-Database File Name: eng_subtitles_database.db
-Database contains a table called 'zipfiles' with three columns.
-1. num: Unique Subtitle ID reference for www.opensubtitles.org 
-2. name: Subtitle File Name
-3. content: Subtitle file were compressed and stored as a binary using 'latin-1' encoding.
+💡 Project Overview:
 
+This AI-based search engine efficiently retrieves video subtitles based on user queries, offering a semantic search experience that understands meaning beyond just keywords.
 
+✅ Keyword-Based & Semantic Search – Supports TF-IDF and BERT embeddings for accurate results.
+✅ AI-Powered Retrieval – Uses Cosine Similarity to find the most relevant subtitles.
+✅ Document Chunking – Improves performance by dividing large subtitle files.
+✅ ChromaDB Integration – Stores and retrieves embeddings efficiently.
+✅ Audio Search Support – Converts audio to text and finds related subtitle matches.
+✅ Fast & Scalable – Optimized for handling large video subtitle databases.
 
-You can use 'num' to get more details about each subtitle by going to the following link:
-https://www.opensubtitles.org/en/subtitles/{num}
-**Replace {num} with Unique Subtitle ID.
+📌 Tech Stack Used:
+
+🔹 Python – Core programming language
+🔹 ChromaDB & FAISS – High-performance vector search
+🔹 TF-IDF & BERT SentenceTransformers – Advanced text vectorization
+🔹 Whisper AI – Converts speech to text for audio search
+🔹 Cosine Similarity – Relevance-based subtitle retrieval
+
+🎯 Key Takeaways from this Project:
+
+✔️ Hands-on experience in NLP-based search engines
+✔️ Implemented semantic search using embeddings
+✔️ Optimized document chunking and indexing
+✔️ Built scalable AI solutions for media accessibility
+
+This project is a huge step forward in making video content more accessible with AI-driven search engines! 🎬📊
+
+A huge thank you to Innomatics Research Labs for this incredible learning experience! 🙌
+
+#AI #GenAI #MachineLearning #NLP #SearchEngine #VideoAccessibility #DeepLearning #SubtitleSearch #WhisperAI #LangChain #Internship #InnomaticsResearchLabs
